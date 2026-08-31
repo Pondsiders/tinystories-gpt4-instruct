@@ -24,6 +24,8 @@ configs:
 
 Request→story pairs for supervised fine-tuning of small language models, derived from [karpathy/tinystories-gpt4-clean](https://huggingface.co/datasets/karpathy/tinystories-gpt4-clean). Each example pairs a natural-language request ("Can you tell me a story about a boy named Tim?") with a TinyStories story that satisfies it.
 
+The dataset lives on [Hugging Face](https://huggingface.co/datasets/Pondsiders/tinystories-gpt4-instruct); the notebook that generates it lives on [GitHub](https://github.com/Pondsiders/tinystories-gpt4-instruct).
+
 This is **not** [roneneldan/TinyStoriesInstruct](https://huggingface.co/datasets/roneneldan/TinyStoriesInstruct). That dataset frames its tasks in a structured format (`Words:`, `Features:`, `Summary:` fields); this one phrases requests the way a person asks — plain conversational English, built for chat-style SFT with templates like ChatML.
 
 ## Provenance
